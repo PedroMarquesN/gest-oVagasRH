@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    container_name: gestao_vagas_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 033409@Pe
+      POSTGRES_DB: gestao_vagas
+    ports:
+      - "5433:5432"
