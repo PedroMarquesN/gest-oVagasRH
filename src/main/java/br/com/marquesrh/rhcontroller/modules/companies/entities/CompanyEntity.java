@@ -1,4 +1,4 @@
-package br.com.marquesrh.rhcontroller.modules.companies;
+package br.com.marquesrh.rhcontroller.modules.companies.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

@@ -1,6 +1,6 @@
-package br.com.marquesrh.rhcontroller.modules.companies;
+package br.com.marquesrh.rhcontroller.modules.companies.repositories;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import br.com.marquesrh.rhcontroller.modules.companies.entities.CompanyEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

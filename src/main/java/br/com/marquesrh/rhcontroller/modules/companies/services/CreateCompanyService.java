@@ -1,7 +1,7 @@
 package br.com.marquesrh.rhcontroller.modules.companies.services;
 
-import br.com.marquesrh.rhcontroller.modules.companies.CompanyEntity;
-import br.com.marquesrh.rhcontroller.modules.companies.CompanyRepository;
+import br.com.marquesrh.rhcontroller.modules.companies.entities.CompanyEntity;
+import br.com.marquesrh.rhcontroller.modules.companies.repositories.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

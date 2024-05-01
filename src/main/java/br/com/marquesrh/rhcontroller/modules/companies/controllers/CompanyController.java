@@ -1,7 +1,7 @@
 package br.com.marquesrh.rhcontroller.modules.companies.controllers;
 
 
-import br.com.marquesrh.rhcontroller.modules.companies.CompanyEntity;
+import br.com.marquesrh.rhcontroller.modules.companies.entities.CompanyEntity;
 import br.com.marquesrh.rhcontroller.modules.companies.services.CreateCompanyService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
