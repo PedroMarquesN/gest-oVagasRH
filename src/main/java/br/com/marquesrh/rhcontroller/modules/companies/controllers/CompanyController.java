@@ -21,8 +21,8 @@ public class CompanyController {
     @PostMapping("/")
     public ResponseEntity<Object> create(@Valid @RequestBody CompanyEntity company) {
         try {
-            var resultado = this.createCompanyService.execute(company);
-            return ResponseEntity.ok(resultado);
+            var result = this.createCompanyService.execute(company);
+            return ResponseEntity.ok(result);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
